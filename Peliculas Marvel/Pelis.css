@@ -1,0 +1,54 @@
+
+
+@font-face {
+    font-family: 'BADABB';
+    src: url('../fonts/BADABB__.TTF') format('truetype');
+}
+
+h1 {
+    font-size:400%;
+    font-family: 'BADABB', sans-serif;
+    color: #312f2f
+}
+ 
+
+
+
+
+.titulo {
+
+margin-left: 20px;
+}
+
+
+ul.list-group li:first-child {
+    
+    background-color: #c6c6c6;
+    
+  }
+.list-group-item {
+    border:none;
+background-color:#f8f9fa;
+margin-top: 5px;
+
+}
+
+.ratio {
+    margin-right: 20px;
+}
+.list-group-item img {
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+
+
+  footer {
+
+    background-color: #000000;
+    color:#ffffff;
+    margin-top: 20px;
+    padding: 15px;
+    
+  
+  }
+
