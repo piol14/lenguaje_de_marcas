@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'BADABB';
+    src: url('../fonts/BADABB__.TTF') format('truetype');
+}
+
+h1 {
+    font-size:400%;
+    font-family: 'BADABB', sans-serif;
+    color: #312f2f
+}
+   .bg-color {
+background-color:#d4ecfc
+}
+
+.card-body {
+
+font-size: 10px;
+justify-content: center;
+
+}
+.card {
+
+margin-left: 20px;
+}
+
+.btn-dark {
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.titulo {
+
+margin-left: 20px;
+}
+
+
+.list-group-item {
+background-color:#d4ecfc;
+margin-top: 10px;
+}
+
+.ratio {
+    margin-right: 20px;
+}
