@@ -19,15 +19,19 @@ justify-content: center;
 
 }
 .card {
-
-margin-left: 20px;
-}
+    display: inline-block;
+    margin-left: 20px ;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    }
 
 .btn-dark {
 text-align: center;
 display: flex;
 align-items: center;
 justify-content: center;
+margin:0 auto;
 }
 
 .titulo {
@@ -38,3 +42,4 @@ margin-left: 20px;
 .card-title{
     font-size: 15px;
 }
+
