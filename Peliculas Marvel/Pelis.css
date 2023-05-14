@@ -10,8 +10,6 @@ h1 {
     font-family: 'BADABB', sans-serif;
     color: #312f2f
 }
- 
-
 
 
 
@@ -29,7 +27,7 @@ ul.list-group li:first-child {
 .list-group-item {
     border:none;
 background-color:#f8f9fa;
-margin-top: 5px;
+margin-top: 10px;
 
 }
 
@@ -42,12 +40,16 @@ margin-top: 5px;
   }
 
 
+  .border {
+    margin-top: 10px;;
+  }
   footer {
 
     background-color: #000000;
     color:#ffffff;
     margin-top: 20px;
-    padding: 15px;
+    padding: 20px;
+
     
   
   }
