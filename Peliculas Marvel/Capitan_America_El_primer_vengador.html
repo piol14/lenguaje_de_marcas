@@ -66,9 +66,10 @@
         <img src="CapitanAmerica.jpg" alt="Logo" class="img-fluid" width="120%">
       </div>
       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 d-lg-flex d-md-flex">
-        
+        <div class="ratio ratio-16x9">
             <iframe  width="100%"  height="100%" src="https://www.youtube.com/embed/YqEJ0jpFvSU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
+    </div>
     </div>
 
     <div class="row mt-3">
@@ -88,8 +89,21 @@
              
               <img class="img-fluid" src="../estrella-removebg-preview.png" alt="Estrella" width="30px"  height="30px">
               <span>6.9/10</span>
+            <button type="button" class="btn btn-danger" data-bs-trigger="hover" data-bs-toggle="popover" title="El escudo del capitán américa" data-bs-content="El escudo de Capitán América es uno de los objetos más icónicos del superhéroe. Para la película se hicieron diferentes modelos de acuerdo a las necesidades de cada escena. De esta forma, los escudos de goma eran utilizados por Evans cuando se rodaban peleas en las que tenía que golpear a la gente con él. Para cuando se lo colocaba en la espalda, unos imanes facilitaban mantenerlo en su sitio. En cuanto al famoso movimiento del superhéroe de lanzar el escudo y recuperarlo, el actor tenía que llevar a cabo la acción sin el objeto en sus manos para que el escudo fuese añadido después mediante el CGI.">
+              CURIOSIDADES
+              
+            </button>
+           
+          </div>
+          
+          <script>
+          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+          })
+          </script>
 
-          <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
+        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
         <ul class="list-group list-group-flush">
           <li class="list-group-item rounded-2"><b>FICHA TÉCNICA</b></li>
           <li class="list-group-item rounded-2"><b>Dirección:</b> Joe Johnston</li>
@@ -99,6 +113,14 @@
           <li class="list-group-item rounded-2"><b>Música:</b> Alan Silvestri</li>
           <li class="list-group-item rounded-2"><b>Basada en:</b> Capitán América de Joe Simon</li>
         </ul>
+      </div>
+
+       
+      <div class="col-lg-5 d-none d-lg-flex">
+        <span class="border border-4 border-dark d-lg-flex">
+          <img src="steveybucky.jpg"  width=100% alt="Imagen de la película" class="img-fluid">
+        </span>
+
       </div>
       <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
         <ul class="list-group list-group-flush">
