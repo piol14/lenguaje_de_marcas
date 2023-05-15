@@ -11,40 +11,48 @@
 </head>
 <body class="bg-color">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../MarvelDC Universe.html">
         <img src="../logo.png" alt="Logo" width="30px">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../MarvelDC Universe.html">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Marvel</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="marvel.html">Películas</a></li>
-              <li><a class="dropdown-item" href="../Series Marvel/seriesMarvel.html">Series</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">DC</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../Peliculas DC/dc.html">Películas</a></li>
-              <li><a class="dropdown-item" href="../Series DC/seriesDC.html">Series</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Formularios/formularios.html">Formularios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Acerca de/Acerca_de.html">Acerca de</a>
-          </li>
-        </ul>
+  
+      <div class="offcanvas offcanvas-start text-bg-dark" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="navbarOffcanvasLabel">Menú</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" aria-current="page" href="../MarvelDC Universe.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Marvel</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="marvel.html">Películas</a></li>
+                <li><a class="dropdown-item" href="seriesMarvel.html">Series</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">DC</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../Peliculas DC/dc.html">Películas</a></li>
+                <li><a class="dropdown-item" href="../Series DC/seriesDC.html">Series</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="../Formularios/formularios.html">Formularios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Acerca de/Acerca_de.html">Acerca de</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -53,13 +61,14 @@
     <h1 class="text-center">IRON MAN 2</h1>
 
     <div class="row">
-      <div class="col-lg-3 col-md-3 d-none d-lg-flex d-md-flex ">
-        <img src="IronMan2.jpg" alt="Logo" class="img-fluid" width="120%">
+      <div class="col-lg-4 col-md-4 d-none d-lg-flex d-md-flex">
+        <img src="IronMan2.jpg" alt="Logo" class="img-fluid" width="100%">
       </div>
-      <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 d-lg-flex d-md-flex">
-        
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 d-lg-flex d-md-flex">
+        <div class="ratio ratio-16x9">
           <iframe  width="100%"  height="100%"src="https://www.youtube.com/embed/pU0vJiJbORk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
+    </div>
     </div>
 
     <div class="row mt-3">
@@ -73,30 +82,85 @@
             Abrumado en todos los frentes, y enfrentándose a la vez a sus propios demonios personales, Tony tiene que convocar a sus aliados 
             (antiguos y nuevos) para que le ayuden a luchar contra la coalición de fuerzas que amenazan con destruirle a él y a toda la humanidad.</p>
 
-          <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
+            <span class="badge rounded-pill bg-dark">
+              Recomendada </span>
+              <img class="img-fluid" src="../estrella-removebg-preview.png" alt="Estrella" width="30px"  height="30px">
+              <span>7.3/10</span>
+              <button type="button" class="btn btn-danger" data-bs-trigger="hover" data-bs-toggle="popover" title="Primera aparición de Scarlett Johansson en el UCM" data-bs-content="Johansson se estrena en este universo como una agente de S.H.I.E.L.D. que acompaña a Nick Fury en su encuentro con Tony Stark. Juntos le hacen entrega de un caja con la antigua investigación de su padre para esta organización del gobierno, una documentación que puede ayudarle y salvarle de su envenenamiento por paladio. De esta forma, encaminan a Stark hacia la búsqueda de un nuevo elemento capaz de reemplazar al paladio sin poner en peligro su vida. ¡Además de demostrar su capacidad como agente encubierta!">
+                CURIOSIDADES
+                
+              </button>
+             
+            </div>
+            
+            <script>
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+              return new bootstrap.Popover(popoverTriggerEl)
+            })
+            </script>
+
+           <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><b>FICHA TÉCNICA</b></li>
-          <li class="list-group-item"><b>Dirección:</b> Jon Favreau</li>
-          <li class="list-group-item"><b>Producción:</b> Kevin Feige</li>
-          <li class="list-group-item"><b>Guión:</b>Justin Theroux</li>
-          <li class="list-group-item"><b>Reparto principal:</b> Robert Downey Jr. - Gwynethy Paltrow - Don Cheadle - Scarlett Johansson - Paul Bettany - Samuel L.Jackson - Mickey Rourke - Sam Rockwell</li>
-          <li class="list-group-item"><b>Música:</b> John Debney</li>
-          <li class="list-group-item"><b>Basada en:</b> Iron Man de Stan Lee y Jack Kirby</li>
+          <li class="list-group-item rounded-2"><b>FICHA TÉCNICA</b></li>
+          <li class="list-group-item rounded-2"><b>Dirección:</b> Jon Favreau</li>
+          <li class="list-group-item rounded-2"><b>Producción:</b> Kevin Feige</li>
+          <li class="list-group-item rounded-2"><b>Guión:</b>Justin Theroux</li>
+          <li class="list-group-item rounded-2"><b>Reparto principal:</b> Robert Downey Jr. - Gwynethy Paltrow - Don Cheadle - Scarlett Johansson - Paul Bettany - Samuel L.Jackson - Mickey Rourke - Sam Rockwell</li>
+          <li class="list-group-item rounded-2"><b>Música:</b> John Debney</li>
+          <li class="list-group-item rounded-2"><b>Basada en:</b> Iron Man de Stan Lee y Jack Kirby</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 d-none d-lg-flex">
+        <span class="border border-4 border-dark d-lg-flex">
+          <img src="villano IronMan2.jpg"  width=100% alt="Imagen de la película" class="img-fluid">
+        </span>
+
+      </div>
+      
+
+    </div>
+      <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item rounded-2"><b>DATOS Y CIFRAS</b></li>
+          <li class="list-group-item rounded-2"><b>Fecha de estreno:</b> 30 de abril de 2010</li>
+          <li class="list-group-item rounded-2"><b>País:</b> Estados Unidos</li>
+          <li class="list-group-item rounded-2"><b>Género:</b> Acción - Ciencia Ficción - Cine de superhéroes</li>
+          <li class="list-group-item rounded-2"><b>Duración:</b> 124 minutos</li>
+          <li class="list-group-item rounded-2"><b>Clasificación:</b> <img src="../PG-13.svg.png" alt="PG" width="50px"></li>
+          <li class="list-group-item rounded-2"><b>Idioma:</b> Inglés</li>
         </ul>
       </div>
       <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><b>DATOS Y CIFRAS</b></li>
-          <li class="list-group-item"><b>Fecha de estreno:</b> 30 de abril de 2010</li>
-          <li class="list-group-item"><b>País:</b> Estados Unidos</li>
-          <li class="list-group-item"><b>Género:</b> Acción - Ciencia Ficción - Cine de superhéroes</li>
-          <li class="list-group-item"><b>Duración:</b> 124 minutos</li>
-          <li class="list-group-item"><b>Clasificación:</b> <img src="../PG-13.svg.png" alt="PG" width="50px"></li>
-          <li class="list-group-item"><b>Idioma:</b> Inglés</li>
+          <li class="list-group-item rounded-2"><b>PREMIOS</b></li>
+          <li class="list-group-item rounded-2"><b>Premio People's Choice:</b> Película de Acción Favorita</li>
+          
         </ul>
       </div>
     </div>
   </div>
+</div>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+      
+        <p class="text-center">
+          Dirección: Carrer d'Ángel Villena, 0, 46013 València
+          <br>
+          Teléfono: 961 20 59 30
+          <br>
+          Email: secretaria@ausiasmarch.net
+        </p>
+        <p class="text-center">&copy; 2023 CIPFP Ausias March. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
