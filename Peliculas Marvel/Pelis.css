@@ -16,8 +16,13 @@ h1 {
 .titulo {
 
 margin-left: 20px;
+
 }
 
+.badge{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 ul.list-group li:first-child {
     
@@ -49,7 +54,7 @@ margin-top: 10px;
 
 .btn {
 
-  margin-left: 48%;
+margin-left:15px;
   padding-top: 1px;
   padding-bottom: 1px;
 }
