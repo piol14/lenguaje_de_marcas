@@ -93,6 +93,13 @@
               </button>
             </div>
 
+            <script>
+              var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+              var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+              })
+              </script>
+
               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 d-lg-flex">
         <ul class="list-group list-group-flush">
           <li class="list-group-item rounded-2"><b>FICHA TÉCNICA</b></li>
