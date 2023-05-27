@@ -10,16 +10,19 @@ h1 {
     font-family: 'BADABB', sans-serif;
     color: #312f2f
 }
- 
-
 
 
 
 .titulo {
 
 margin-left: 20px;
+
 }
 
+.badge{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 ul.list-group li:first-child {
     
@@ -27,9 +30,9 @@ ul.list-group li:first-child {
     
   }
 .list-group-item {
-    border:none;
+border:none;
 background-color:#f8f9fa;
-margin-top: 5px;
+margin-top: 10px;
 
 }
 
@@ -42,13 +45,44 @@ margin-top: 5px;
   }
 
 
+  .border {
+    margin-top: 10px;
+    width: 100%;
+ 
+
+  }
+
+.btn {
+
+margin-left:15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.popover-body {
+
+  text-align: justify;
+ 
+}
+
+p {
+  text-align: justify
+
+}
+
+.popover-header {
+  background-color: #c6c6c6;
+  text-align: center;
+
+}
+
   footer {
 
     background-color: #000000;
     color:#ffffff;
     margin-top: 20px;
-    padding: 15px;
-    
-  
+    padding: 20px;
+
+   
   }
 
