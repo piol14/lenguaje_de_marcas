@@ -1,0 +1,51 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  width: 30px;
+  height: 30px;
+}
+.card-body {
+
+
+  justify-content: center;
+  padding: 15px;
+  
+  }
+  .card {
+    position:relative;
+      display: inline-block;
+      margin-left: 20px ;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      background-color: #f8f9fa;
+      
+      }
+
+  
+.img-fluid {
+  width: 30px;
+  height:20px;
+  margin-bottom: 14px;
+}
+
+.table {
+  background-color: #f8f9fa;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.table td {
+  background-color: #f8f9fa;
+}
+
+footer {
+
+  background-color: #000000;
+  color:#ffffff;
+  margin-top: 20px;
+  padding: 20px;
+
+}

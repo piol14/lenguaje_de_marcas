@@ -1,12 +1,14 @@
+
+
 @font-face {
-    font-family: 'BADABB';
-    src: url('../fonts/BADABB__.TTF') format('truetype');
+  font-family: 'BADABB';
+  src: url('../fonts/BADABB__.TTF') format('truetype');
 }
 
 h1 {
-    font-size:400%;
-    font-family: 'BADABB', sans-serif;
-    color: #312f2f
+  font-size:400%;
+  font-family: 'BADABB', sans-serif;
+  color: #312f2f
 }
 
 
@@ -18,15 +20,15 @@ margin-left: 20px;
 }
 
 .badge{
-  padding-bottom: 10px;
-  padding-top: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
 }
 
 ul.list-group li:first-child {
-    
-    background-color: #c6c6c6;
-    
-  }
+  
+  background-color: #c6c6c6;
+  
+}
 .list-group-item {
 border:none;
 background-color:#f8f9fa;
@@ -35,57 +37,51 @@ margin-top: 10px;
 }
 
 .ratio {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 .list-group-item img {
-    vertical-align: middle;
-    margin-left: 5px;
-  }
+  vertical-align: middle;
+  margin-left: 5px;
+}
 
 
-  .border {
-    margin-top: 10px;
-    width: 100%;
- 
+.border {
+  margin-top: 10px;
+  width: 100%;
 
-  }
+
+}
 
 .btn {
 
 margin-left:15px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+padding-top: 1px;
+padding-bottom: 1px;
 }
 
 .popover-body {
 
-  text-align: justify;
- 
+text-align: justify;
+
 }
 
 p {
-  text-align: justify
+text-align: justify
 
 }
 
 .popover-header {
-  background-color: #c6c6c6;
-  text-align: center;
+background-color: #c6c6c6;
+text-align: center;
 
 }
 
-  footer {
+footer {
 
-    background-color: #000000;
-    color:#ffffff;
-    margin-top: 20px;
-    padding: 20px;
+  background-color: #000000;
+  color:#ffffff;
+  margin-top: 20px;
+  padding: 20px;
 
-  }
-
-  
-.bi {
-  width: 30px;
-  height:20px;
-  margin-bottom: 6px;
+ 
 }
