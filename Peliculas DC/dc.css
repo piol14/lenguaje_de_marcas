@@ -8,9 +8,6 @@ h1 {
     font-family: 'BADABB', sans-serif;
     color: #312f2f
 }
-   .bg-color {
-background-color:#d4ecfc
-}
 
 .card-body {
 
@@ -21,10 +18,13 @@ justify-content: center;
 .card {
     display: inline-block;
     margin-left: 20px ;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 20px;
+    background-color: #f8f9fa;
     
-    }
+
+}   
+    
 
 .btn-dark {
 text-align: center;
@@ -42,3 +42,12 @@ margin-left: 20px;
 .card-title{
     font-size: 15px;
 }
+
+footer {
+
+    background-color: #000000;
+    color:#ffffff;
+    margin-top: 20px;
+    padding: 20px;
+  
+  }
