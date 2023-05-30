@@ -45,9 +45,6 @@ p {
 
 }
 
-
-
-
   footer {
 
     background-color: #000000;
@@ -58,4 +55,16 @@ p {
   }
 
 
+.bi-instagram{
+  color:#773292;
+  margin-right: 15px;
+margin-left: 15px;
+
+
+}
+
+.bi-youtube {
+  color:#c91a1a;
+  margin-left: 15px;
+}
 
