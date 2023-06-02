@@ -72,21 +72,33 @@
             <div class="carousel-item active">
               <a href="">
                 <img src="blue-beetle.jpg" alt="blue-beetle" class="d-block" width="100%">
+                <div class="carousel-caption">
+                  <h2>ESTRENOS</h2>
+                </div>
               </a>
             </div>
             <div class="carousel-item">
               <a href="Series Marvel/Secret_Invasion.html">
                 <img src="secretinvasions.jpg" alt="secretinvasions" class="d-block" width="100%">
+                <div class="carousel-caption">
+                  <h2>ESTRENOS</h2>
+                </div>
               </a>
             </div>
             <div class="carousel-item">
               <a href="">
                 <img src="the flash.jpg" alt="the flash" class="d-block" width="100%">
+                <div class="carousel-caption">
+                  <h2>ESTRENOS</h2>
+                </div>
               </a>
             </div>
             <div class="carousel-item">
               <a href="Peliculas Marvel/The_Marvels.html">
                 <img src="the_marvels.jpg" alt="the-marvels-movie-trailer" class="d-block" width="100%">
+                <div class="carousel-caption">
+                  <h2>ESTRENOS</h2>
+                </div>
               </a>
             </div>
           </div>
@@ -431,6 +443,103 @@
               </div>
             </div>
           </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="formulario">
+          <h3>Formulario de Superheroes</h3>
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col">
+                <div class="input-group">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" placeholder="Introduzca nombre" name="nombre">
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-group">
+                  <span class="input-group-text">@correo.com</span>
+                  <input type="email" class="form-control" placeholder="Introduzca correo" name="correo">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-text">Género</span>
+                    <select class="form-select" id="genero" name="listaGenero">
+                      <option value="acción">Acción</option>
+                      <option value="aventura">Aventura</option>
+                      <option value="ciencia-ficción">Ciencia ficción</option>
+                      <option value="fantasía">Fantasía</option>
+                      <option value="comedia">Comedia</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-group">
+                  <span class="input-group-text">Edad</span>
+                  <input type="number" class="form-control" placeholder="Introduzca edad" name="edad"  min="18" max="99">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="interes">Nivel de interés en películas de superhéroes:</label>
+                  <input type="range" class="form-range" id="interes" min="1" max="10" name="nivelInteres">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label>¿Qué cosas te gustan de las películas de superhéroes?</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gusto1" value="acción" checked>
+                    <label class="form-check-label" for="gusto1">Acción</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gusto2" value="efectos especiales">
+                    <label class="form-check-label" for="gusto2">Efectos especiales</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gusto3" value="historias emocionantes">
+                    <label class="form-check-label" for="gusto3">Trama</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gusto4" value="personajes-carismaticos">
+                    <label class="form-check-label" for="gusto4">Personajes carismáticos</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gusto5" value="unico_universo">
+                    <label class="form-check-label" for="gusto5">Universo compartido</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label>¿Cuál es tu universo de superhéroes favorito?</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="universo" id="marvel" value="marvel" checked>
+                    <label class="form-check-label" for="marvel">Marvel</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="universo" id="dc" value="dc">
+                    <label class="form-check-label" for="dc">DC</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <button type="submit" class="btn btn-dark">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </div>
     </div>

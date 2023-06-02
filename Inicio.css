@@ -50,6 +50,19 @@ h1 {
   background-color: #f8f9fa;
 }
 
+.carousel-caption {
+  text-align: left;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+
+
+.form-control {
+  width: 300px;
+}
 footer {
 
   background-color: #000000;
