@@ -46,9 +46,7 @@
               <li><a class="dropdown-item" href="Series DC/seriesDC.html">Series</a></li>
             </ul>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="Formularios/formularios.html">Formularios</a>
-          </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="Acerca de/Acerca_de.html">Acerca de</a>
           </li>
@@ -448,18 +446,22 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <div class="formulario">
           <h3>Formulario de Superheroes</h3>
-          <form action="/action_page.php">
+          <form action="/action_page.php" class="was-validated">
             <div class="row">
               <div class="col">
                 <div class="input-group">
-                  <span class="input-group-text">@</span>
-                  <input type="text" class="form-control" placeholder="Introduzca nombre" name="nombre">
+                  <span class="input-group-text">Nombre</span>
+                  <input type="text" class="form-control" placeholder="Introduzca nombre" name="nombre" required>
+                  <div class="valid-feedback">Válido.</div>
+                  <div class="invalid-feedback">Por favor, rellene este campo.</div>
                 </div>
               </div>
               <div class="col">
                 <div class="input-group">
-                  <span class="input-group-text">@correo.com</span>
-                  <input type="email" class="form-control" placeholder="Introduzca correo" name="correo">
+                  <span class="input-group-text">Correo</span>
+                  <input type="email" class="form-control" placeholder="Introduzca correo" name="correo" required>
+                  <div class="valid-feedback">Válido.</div>
+                  <div class="invalid-feedback">Por favor, rellene este campo.</div>
                 </div>
               </div>
             </div>
@@ -481,7 +483,8 @@
               <div class="col">
                 <div class="input-group">
                   <span class="input-group-text">Edad</span>
-                  <input type="number" class="form-control" placeholder="Introduzca edad" name="edad"  min="18" max="99">
+                  <input type="number" class="form-control" placeholder="Introduzca edad" name="edad"  min="18" max="99" required>
+
                 </div>
               </div>
             </div>

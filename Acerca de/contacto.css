@@ -1,15 +1,29 @@
 @font-face {
-    font-family: 'BADABB';
-    src: url('../fonts/BADABB__.TTF') format('truetype');
+  font-family: 'BADABB';
+  src: url('../fonts/BADABB__.TTF') format('truetype');
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 h1 {
-    font-size:400%;
-    font-family: 'BADABB', sans-serif;
-    color: #312f2f
+  font-size:400%;
+  font-family: 'BADABB', sans-serif;
+  color: #312f2f
 }
 
-
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+  }
+  
+  p {
+  font-size:15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  }
 
 .titulo {
 
@@ -17,54 +31,70 @@ margin-left: 20px;
 
 }
 
+.text-black {
+color: #000; }
+
+.content {
+padding: 7rem 0; }
+
+.heading {
+font-size: 2.5rem;
+font-weight: 900; }
+
 .form-control {
-  margin-bottom: 15px;
-  padding: 10px;
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
+border: none;
+border-bottom: 1px solid #ccc;
+padding-left: 0;
+padding-right: 0;
+border-radius: 0;
+background: none; }
 
-textarea {
-  resize: vertical;
-}
+.form-label {
+color: #000;
+font-size: 13px; }
 
-.form-check {
-  margin-bottom: 15px;
-}
+.btn, .form-control, .custom-select {
+height: 45px;
+border-radius: 0; }
 
-.btn-dark {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
+.custom-select {
+border: none;
+border-bottom: 1px solid #ccc;
+padding-left: 0;
+padding-right: 0;
+border-radius: 0; }
+
+
+.btn {
+border: none;
+border-radius: 0;
+font-size: 11px;
+letter-spacing: .2rem;
+border-radius: 30px; }
 p {
-  text-align: justify
+text-align: justify
 
 }
 
-  footer {
+footer {
 
-    background-color: #000000;
-    color:#ffffff;
-    margin-top: 20px;
-    padding: 20px;
+  background-color: #000000;
+  color:#ffffff;
+  margin-top: 20px;
+  padding: 20px;
 
-  }
+}
 
 
 .bi-instagram{
-  color:#773292;
-  margin-right: 15px;
+color:#773292;
+margin-right: 15px;
 margin-left: 15px;
 
 
 }
 
 .bi-youtube {
-  color:#c91a1a;
-  margin-left: 15px;
+color:#c91a1a;
+margin-left: 15px;
 }
-
