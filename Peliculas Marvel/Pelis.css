@@ -1,17 +1,30 @@
 
-
 @font-face {
-    font-family: 'BADABB';
-    src: url('../fonts/BADABB__.TTF') format('truetype');
+  font-family: 'BADABB';
+  src: url('../fonts/BADABB__.TTF') format('truetype');
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify
+}
 h1 {
-    font-size:400%;
-    font-family: 'BADABB', sans-serif;
-    color: #312f2f
+  font-size:400%;
+  font-family: 'BADABB', sans-serif;
+  color: #312f2f
 }
 
-
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+  }
+  
+  
 
 .titulo {
 
@@ -27,7 +40,8 @@ margin-left: 20px;
 ul.list-group li:first-child {
     
     background-color: #c6c6c6;
-    
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   }
 .list-group-item {
 border:none;
@@ -62,18 +76,17 @@ margin-left:15px;
 .popover-body {
 
   text-align: justify;
- 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
 }
 
-p {
-  text-align: justify
 
-}
 
 .popover-header {
   background-color: #c6c6c6;
   text-align: center;
-
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
   footer {
