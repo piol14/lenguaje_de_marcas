@@ -53,7 +53,7 @@ background: none; }
 color: #000;
 font-size: 13px; }
 
-.btn, .form-control, .custom-select {
+ .form-control, .custom-select {
 height: 45px;
 border-radius: 0; }
 
@@ -66,9 +66,12 @@ border-radius: 0; }
 
 
 .btn {
-border: none;
-border-radius: 0;
-font-size: 11px;
+   
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
  }
 p {
 text-align: justify

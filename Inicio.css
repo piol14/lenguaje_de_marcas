@@ -86,14 +86,17 @@ font-family: 'Montserrat', sans-serif;
   display: flex;
 }
 
-.btn, .form-control, .custom-select,.form-select {
+ .form-control, .custom-select,.form-select {
   height: 45px;
   border-radius: 0; }
 
   .btn {
-    border: none;
-    border-radius: 0;
-    font-size: 11px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
    }
 footer {
 
